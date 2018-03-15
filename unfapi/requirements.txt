@@ -1,0 +1,4 @@
+fabric3>=1.14
+pytest>=3.4
+bitstring>=3.1.5
+pyserial>=3.4
