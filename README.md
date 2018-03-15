@@ -3,7 +3,7 @@ TumbleRF: RF Fuzzing Framework
 
 ## Overview
 
-While fuzzing is known to be a powerful mechanism for fingerprinting and enumerating bugs within hardware and software systems, the application of this technique to wireless systems remains nontrivial due to fragmented and siloed tools.  Join us as we cover wireless fuzzing fundamentals and introduce a new tool to unify the approach across protocols, radios, and drivers.
+TumbleRF is a framework that orchestrates the application of fuzzing techniques to RF systems.  While fuzzing has always been a powerful mechanism for fingerprinting and enumerating bugs within software systems, the application of these techniques to wireless and hardware systems has historically been nontrivial due to fragmented and siloed tools.  TumbleRF aims to enable RF fuzzing by providing an API to unify these techniques across protocols, radios, and drivers.
 
 ## Presentations
 
