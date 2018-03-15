@@ -17,7 +17,7 @@ sudo apt-get install gnuradio-dev libuhd-dev
 git clone https://github.com/bastibl/gr-foo.git && pushd gr-foo && mkdir build && cd build && cmake ../ && make -j8 && sudo make install && sudo ldconfig && popd
 git clone https://github.com/bastibl/gr-ieee802-15-4.git && pushd gr-foo && mkdir build && cd build && cmake ../ && make -j8 && sudo make install && sudo ldconfig && popd
 ```
-** Once installed, a headerless 802.15.4 PHY transceiver block must be generated locally.  To do this, open the `/unfapi/interfaces/gr_ieee802_15_4/ieee802_15_4_OQPSK_headerless_PHY.grc` flowgraph in `gnuradio-companion` and press `F5`.  This will create a Python representation of the flowgraph which can be instantiated and invoked by `unfapi`.
+** Once installed, a headerless 802.15.4 PHY transceiver block must be generated locally.  To do this, open the `/tumblerf/interfaces/gr_ieee802_15_4/ieee802_15_4_OQPSK_headerless_PHY.grc` flowgraph in `gnuradio-companion` and press `F5`.  This will create a Python representation of the flowgraph which can be instantiated and invoked by `tumblerf`.
 
 2. For `Killerbee`-based interfaces:
 
