@@ -24,7 +24,7 @@ You should now see a prompt that looks similar to:
 
 Now, install the required dependencies:
 ```bash
-pip install -r unfapi/requirements.txt
+pip install -r tumblerf/requirements.txt
 ```
 
 ### Install dependencies for specific features:
@@ -68,7 +68,7 @@ See ./interfaces/README.md.
 
 This tool needs to be scripted to carry out most tasks, however a CLI is available for some uses.
 
-Running `./unfapi/cli.py` will tell you what interfaces, generators, and harnesses are available so you can define each.
+Running `./tumblerf/cli.py` will tell you what interfaces, generators, and harnesses are available so you can define each.
 
 A very simple run case can be done based on something like the following.
 This just transmits random frames from one device to another which looks to see if it got them, and is thus uninteresting.
@@ -79,7 +79,7 @@ However, it demonstrates how we pick the _second_ interface to use for TX, as Re
            1:3 KILLERB001           A60400A01C25
            1:4 KILLERB001           0004251CA001
 
-﻿(py2-virtualenv)$ ./unfapi/cli.py -I KillerBeeInterface -i 1:3 -G Dot15d4RandomPayloadGenerator -H ReceivedFrameHarness --rx_iface_device 1:4
+﻿(py2-virtualenv)$ ./tumblerf/cli.py -I KillerBeeInterface -i 1:3 -G Dot15d4RandomPayloadGenerator -H ReceivedFrameHarness --rx_iface_device 1:4
 ~~~
 
 > NOTE: If you see errors such as the below, you may have a permission issue accessing your USB devces.
